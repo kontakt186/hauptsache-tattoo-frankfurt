@@ -83,6 +83,14 @@ a {
   align-items: center;
   width: clamp(170px, 12vw, 210px);
   flex: 0 0 auto;
+  transition: width 180ms ease;
+}
+
+@media (min-width: 761px) {
+  .site-header.is-scrolled .brand,
+  .site-header.is-open .brand {
+    width: 82px;
+  }
 }
 
 .site-nav {
