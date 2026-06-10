@@ -570,6 +570,67 @@ h3 {
   text-underline-offset: 4px;
 }
 
+.subpage-hero {
+  display: grid;
+  min-height: 46svh;
+  align-items: end;
+  background:
+    linear-gradient(90deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.44)),
+    url("assets/site/hero-tattoo-frankfurt.jpg") center / cover;
+  color: var(--ink);
+  padding: 150px 0 70px;
+}
+
+.subpage-hero h1 {
+  max-width: 940px;
+}
+
+.legal-section {
+  background: var(--paper);
+  padding: clamp(60px, 8vw, 108px) 0;
+}
+
+.legal-content {
+  max-width: 920px;
+}
+
+.legal-content h2 {
+  margin: 46px 0 16px;
+  font-size: clamp(1.8rem, 3.6vw, 3.2rem);
+}
+
+.legal-content h3 {
+  margin: 34px 0 12px;
+  color: var(--red);
+  font-size: 1.15rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.legal-content p,
+.legal-content li {
+  color: #45413c;
+  font-size: 1.04rem;
+}
+
+.legal-content a {
+  color: var(--red);
+  font-weight: 800;
+  text-underline-offset: 4px;
+}
+
+.legal-card {
+  display: grid;
+  gap: 7px;
+  border-left: 4px solid var(--red);
+  background: var(--paper-muted);
+  padding: 24px;
+}
+
+.legal-card p {
+  margin: 0;
+}
+
 .site-footer {
   background: var(--bg);
   color: var(--muted);
@@ -763,6 +824,11 @@ h3 {
     justify-content: flex-start;
     margin: 0 auto 24px;
     width: min(var(--max), calc(100% - 36px));
+  }
+
+  .subpage-hero {
+    min-height: 40svh;
+    padding: 126px 0 52px;
   }
 
   .proof-grid {
