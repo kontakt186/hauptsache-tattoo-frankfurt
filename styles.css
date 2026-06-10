@@ -81,7 +81,7 @@ a {
 .brand {
   display: inline-flex;
   align-items: center;
-  width: 76px;
+  width: clamp(124px, 10vw, 150px);
   flex: 0 0 auto;
 }
 
@@ -644,8 +644,23 @@ h3 {
   align-items: center;
 }
 
-.footer-grid p {
+.footer-copy p {
   margin: 0;
+}
+
+.footer-copy {
+  display: grid;
+  gap: 6px;
+}
+
+.footer-credit {
+  color: rgba(248, 246, 241, 0.7);
+  font-size: 0.84rem;
+}
+
+.footer-credit a {
+  color: var(--ink);
+  font-weight: 900;
 }
 
 .footer-grid nav {
