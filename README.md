@@ -12,7 +12,7 @@ Empfohlene Pages-Quelle:
 Die Datei `CNAME` setzt die gewuenschte Custom Domain:
 
 ```text
-www.hauptsache-tattoo-frankfurt.de
+hauptsache-tattoo-frankfurt.de
 ```
 
 Die Datei `.nojekyll` deaktiviert die Jekyll-Verarbeitung, damit die statischen Dateien unveraendert ausgeliefert werden.
